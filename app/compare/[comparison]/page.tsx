@@ -19,7 +19,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { comparison } = await params;
-  const [slug1, slug2] = params.comparison.split('-vs-');
+  const [slug1, slug2] = comparison.split('-vs-');
   const [app1, app2] = getComparisonApps(slug1, slug2);
   
   if (!app1 || !app2) {
