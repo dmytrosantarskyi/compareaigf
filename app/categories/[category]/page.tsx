@@ -5,9 +5,9 @@ import { ExternalLink, Star, Check, X } from "lucide-react";
 import { Metadata } from "next";
 
 interface PageProps {
-  params: {
+  params: Promise<{
     category: string;
-  };
+  }>;
 }
 
 const categoryNames: Record<string, { title: string; description: string }> = {
@@ -34,7 +34,8 @@ const categoryNames: Record<string, { title: string; description: string }> = {
 };
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const categoryInfo = categoryNames[params.category];
+  const { category } = await params;
+  const categoryInfo = categoryNames[category];
   
   if (!categoryInfo) {
     return {
@@ -54,9 +55,10 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function CategoryPage({ params }: PageProps) {
-  const categoryInfo = categoryNames[params.category];
-  const categoryApps = getAppsByCategory(params.category);
+export default async function CategoryPage({ params }: PageProps) {
+  const { category } = await params;
+  const categoryInfo = categoryNames[category];
+  const categoryApps = getAppsByCategory(category);
 
   if (!categoryInfo || categoryApps.length === 0) {
     notFound();

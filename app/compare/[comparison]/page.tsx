@@ -1,16 +1,24 @@
-import { getComparisonApps } from "@/data/apps";
+import { getComparisonApps, getAllComparisons } from "@/data/apps";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ExternalLink, Check, X, Star } from "lucide-react";
 import { Metadata } from "next";
 
 interface PageProps {
-  params: {
+  params: Promise<{
     comparison: string;
-  };
+  }>;
+}
+
+export async function generateStaticParams() {
+  const comparisons = getAllComparisons();
+  return comparisons.map((comparison) => ({
+    comparison,
+  }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { comparison } = await params;
   const [slug1, slug2] = params.comparison.split('-vs-');
   const [app1, app2] = getComparisonApps(slug1, slug2);
   
@@ -26,8 +34,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-export default function ComparisonPage({ params }: PageProps) {
-  const [slug1, slug2] = params.comparison.split('-vs-');
+export default async function ComparisonPage({ params }: PageProps) {
+  const { comparison } = await params;
+  const [slug1, slug2] = comparison.split('-vs-');
   const [app1, app2] = getComparisonApps(slug1, slug2);
 
   if (!app1 || !app2) {

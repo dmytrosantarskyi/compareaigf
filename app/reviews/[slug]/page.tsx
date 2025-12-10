@@ -5,13 +5,14 @@ import { ExternalLink, Star, Check, X, ArrowLeft } from "lucide-react";
 import { Metadata } from "next";
 
 interface PageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const app = getAppBySlug(params.slug);
+  const { slug } = await params;
+  const app = getAppBySlug(slug);
   
   if (!app) {
     return {
@@ -31,8 +32,9 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function ReviewPage({ params }: PageProps) {
-  const app = getAppBySlug(params.slug);
+export default async function ReviewPage({ params }: PageProps) {
+  const { slug } = await params;
+  const app = getAppBySlug(slug);
 
   if (!app) {
     notFound();
