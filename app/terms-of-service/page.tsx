@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Terms of Service | CompareAIGF',
-  description: 'Terms of Service for CompareAIGF - Read our terms and conditions for using our comparison website.',
+  description: 'CompareAIGF Terms of Service: Read our terms and conditions for using our AI girlfriend comparison website. Understand your rights and responsibilities.',
 };
 
 export default function TermsOfService() {

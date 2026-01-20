@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | CompareAIGF',
-  description: 'Privacy Policy for CompareAIGF - Learn how we collect, use, and protect your personal information.',
+  description: 'CompareAIGF Privacy Policy: Learn how we collect, use, and protect your personal information. Understand our data practices, cookies, and your privacy rights.',
 };
 
 export default function PrivacyPolicy() {

@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: ComparisonPageProps): Promise
 
   return {
     title: `${app1.name} vs ${app2.name} | The Ultimate AI Girlfriend Comparison`,
-    description: `In-depth comparison of ${app1.name} and ${app2.name}. We analyze chat speed, roleplay features, and pricing to decide which AI is better.`,
+    description: `${app1.name} vs ${app2.name}: Compare chat speed, roleplay quality, emotional intelligence, pricing, and features. Find which AI girlfriend app is better for you.`,
     keywords: `${app1.name}, ${app2.name}, AI girlfriend comparison, ${app1.name} vs ${app2.name}`,
   };
 }

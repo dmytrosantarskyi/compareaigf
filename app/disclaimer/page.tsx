@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Disclaimer | CompareAIGF',
-  description: 'Disclaimer for CompareAIGF - Important information about our comparison website and affiliate relationships.',
+  description: 'CompareAIGF Disclaimer: Important information about our AI girlfriend comparison website, affiliate relationships, and limitations of liability.',
 };
 
 export default function Disclaimer() {

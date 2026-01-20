@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'CompareAIGF - Compare AI Girlfriend Apps',
-  description: 'Detailed side-by-side comparisons of the top AI girlfriend apps. We test speed, roleplay quality, and visuals to help you choose.',
+  description: 'Compare top AI girlfriend apps side-by-side. We test speed, roleplay quality, emotional intelligence, and visuals to help you find the perfect AI companion.',
 }
 
 export default function RootLayout({

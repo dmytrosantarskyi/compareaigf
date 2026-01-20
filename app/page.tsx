@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Choose the Best AI Girlfriend with CompareAIGF',
-  description: 'Detailed side-by-side comparisons of the top AI girlfriend apps. We test speed, roleplay quality, and visuals to help you choose.',
+  description: 'Compare top AI girlfriend apps side-by-side. We test speed, roleplay quality, emotional intelligence, and visuals to help you find the perfect AI companion.',
   keywords: 'ai girlfriend comparison, ai girlfriend app comparison, ai girlfriend chatbot comparison, ai girlfriend app features comparison, ai girlfriend apps comparison, virtual girlfriend comparison',
 };
 
