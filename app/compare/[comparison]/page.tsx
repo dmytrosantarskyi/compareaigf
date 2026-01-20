@@ -330,7 +330,7 @@ export default function ComparisonPage({ params }: ComparisonPageProps): JSX.Ele
                   src={getProductPath(app1.slug)!}
                   alt={`${app1.name} interface screenshot`}
                   fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  className={getProductPath(app1.slug)?.includes('/logos/') ? 'object-contain p-8' : 'object-cover group-hover:scale-105 transition-transform duration-300'}
                 />
               </div>
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-900/90 to-transparent p-4">
@@ -349,7 +349,7 @@ export default function ComparisonPage({ params }: ComparisonPageProps): JSX.Ele
                   src={getProductPath(app2.slug)!}
                   alt={`${app2.name} interface screenshot`}
                   fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  className={getProductPath(app2.slug)?.includes('/logos/') ? 'object-contain p-8' : 'object-cover group-hover:scale-105 transition-transform duration-300'}
                 />
               </div>
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-900/90 to-transparent p-4">

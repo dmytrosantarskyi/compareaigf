@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { apps } from '@/data/apps';
 
 export default function Footer() {
@@ -10,7 +11,16 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* About */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-blue-400">CompareAIGF</h3>
+            <div className="flex items-center gap-3 mb-4">
+              <Image
+                src="/logo/favicon-32x32.png"
+                alt="CompareAIGF"
+                width={32}
+                height={32}
+                className="rounded-lg"
+              />
+              <h3 className="text-xl font-bold text-blue-400">CompareAIGF</h3>
+            </div>
             <p className="text-slate-400 text-sm mb-4">
               Your comprehensive resource for comparing AI girlfriend applications. 
               Find the perfect AI companion that matches your needs.

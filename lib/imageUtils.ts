@@ -76,7 +76,7 @@ const productMap: Record<string, string> = {
   'romantic-ai': 'romanticai',
   'eva-ai': 'evaapp',
   'virtualgf': 'virtualgf',
-  'ai-waifu': 'aiwaifu', // Will use logo as product fallback
+  // ai-waifu product not found, will use logo (aiwaifu.webp) as fallback
   'waifuchat': 'waifuchat',
   'fantasygf': 'fantasygf',
   'chatfai': 'chatfai',
