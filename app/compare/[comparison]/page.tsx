@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { getAppBySlug } from '@/data/apps';
 import { parseComparisonSlugs } from '@/lib/utils';
 import { getLogoPath, getProductPath, getLogoRadiusValue } from '@/lib/imageUtils';
+import CTA from '@/components/CTA';
 
 interface ComparisonPageProps {
   params: {
@@ -136,7 +137,7 @@ export default function ComparisonPage({ params }: ComparisonPageProps): JSX.Ele
             </div>
             <h2 className="text-2xl lg:text-3xl font-bold mb-4 text-blue-400">{app1.name}</h2>
             <a
-              href={`https://${app1.websiteUrl}`}
+              href={app1.websiteUrl.startsWith('http') ? app1.websiteUrl : `https://${app1.websiteUrl}`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 shadow-lg hover:shadow-blue-500/25"
@@ -178,7 +179,7 @@ export default function ComparisonPage({ params }: ComparisonPageProps): JSX.Ele
             </div>
             <h2 className="text-2xl lg:text-3xl font-bold mb-4 text-rose-400">{app2.name}</h2>
             <a
-              href={`https://${app2.websiteUrl}`}
+              href={app2.websiteUrl.startsWith('http') ? app2.websiteUrl : `https://${app2.websiteUrl}`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-gradient-to-r from-rose-600 to-rose-500 hover:from-rose-500 hover:to-rose-400 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 shadow-lg hover:shadow-rose-500/25"
@@ -206,6 +207,13 @@ export default function ComparisonPage({ params }: ComparisonPageProps): JSX.Ele
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* CTA 1 */}
+      <section className="container mx-auto px-6 py-12">
+        <div className="max-w-4xl mx-auto">
+          <CTA variant="random" index={0} />
         </div>
       </section>
 
@@ -306,6 +314,13 @@ export default function ComparisonPage({ params }: ComparisonPageProps): JSX.Ele
         </div>
       </section>
 
+      {/* CTA 2 */}
+      <section className="container mx-auto px-6 py-12">
+        <div className="max-w-4xl mx-auto">
+          <CTA variant="random" index={1} minimal={true} />
+        </div>
+      </section>
+
       {/* UX Section */}
       <section className="container mx-auto px-4 py-12">
         <div className="max-w-6xl mx-auto">
@@ -362,6 +377,13 @@ export default function ComparisonPage({ params }: ComparisonPageProps): JSX.Ele
             </div>
           )}
           </div>
+        </div>
+      </section>
+
+      {/* CTA 3 */}
+      <section className="container mx-auto px-6 py-12">
+        <div className="max-w-4xl mx-auto">
+          <CTA variant="random" index={2} />
         </div>
       </section>
 
@@ -493,6 +515,13 @@ export default function ComparisonPage({ params }: ComparisonPageProps): JSX.Ele
         </div>
       </section>
 
+      {/* CTA 4 */}
+      <section className="container mx-auto px-6 py-12">
+        <div className="max-w-4xl mx-auto">
+          <CTA variant="random" index={3} minimal={true} />
+        </div>
+      </section>
+
       {/* Sign Up FAQ */}
       <section className="container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto">
@@ -524,6 +553,13 @@ export default function ComparisonPage({ params }: ComparisonPageProps): JSX.Ele
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* CTA 5 */}
+      <section className="container mx-auto px-6 py-12">
+        <div className="max-w-4xl mx-auto">
+          <CTA variant="random" index={4} />
         </div>
       </section>
 
@@ -692,6 +728,13 @@ export default function ComparisonPage({ params }: ComparisonPageProps): JSX.Ele
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* CTA 6 - After Final Verdict */}
+      <section className="container mx-auto px-6 py-12">
+        <div className="max-w-4xl mx-auto">
+          <CTA variant="random" index={5} minimal={true} />
         </div>
       </section>
     </div>

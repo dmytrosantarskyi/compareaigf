@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { apps } from '@/data/apps';
 import VSSelector from '@/components/VSSelector';
 import AppGrid from '@/components/AppGrid';
+import CTA from '@/components/CTA';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
@@ -195,6 +196,13 @@ export default function Home() {
           </div>
         </section>
 
+        {/* CTA 1 */}
+        <section className="container mx-auto px-6 py-12">
+          <div className="max-w-4xl mx-auto">
+            <CTA variant="random" index={6} />
+          </div>
+        </section>
+
         {/* The Grid Section */}
         <section className="container mx-auto px-4 py-20">
           <div className="max-w-6xl mx-auto">
@@ -208,6 +216,13 @@ export default function Home() {
               <p className="text-lg text-slate-400">Explore {apps.length} platforms we've analyzed</p>
             </div>
             <AppGrid />
+          </div>
+        </section>
+
+        {/* CTA 2 */}
+        <section className="container mx-auto px-6 py-12">
+          <div className="max-w-4xl mx-auto">
+            <CTA variant="random" index={7} minimal={true} />
           </div>
         </section>
 
@@ -290,6 +305,13 @@ export default function Home() {
           </div>
         </section>
 
+        {/* CTA 3 */}
+        <section className="container mx-auto px-6 py-12">
+          <div className="max-w-4xl mx-auto">
+            <CTA variant="random" index={8} />
+          </div>
+        </section>
+
         {/* Trust Section */}
         <section className="container mx-auto px-4 py-20">
           <div className="max-w-4xl mx-auto">
@@ -326,6 +348,13 @@ export default function Home() {
                 </p>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* CTA 4 */}
+        <section className="container mx-auto px-6 py-12">
+          <div className="max-w-4xl mx-auto">
+            <CTA variant="random" index={9} minimal={true} />
           </div>
         </section>
 

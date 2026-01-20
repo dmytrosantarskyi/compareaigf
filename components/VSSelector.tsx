@@ -123,7 +123,15 @@ export default function VSSelector() {
                     <span className="text-xs bg-blue-500/20 text-blue-400 px-2 py-1 rounded">Free Tier</span>
                   )}
                 </div>
-                <p className="text-sm font-semibold text-slate-300">{selectedApp1.pricing.price}</p>
+                <p className="text-sm font-semibold text-slate-300 mb-4">{selectedApp1.pricing.price}</p>
+                <a
+                  href={selectedApp1.websiteUrl.startsWith('http') ? selectedApp1.websiteUrl : `https://${selectedApp1.websiteUrl}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 text-white font-semibold py-2.5 px-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-blue-500/25 text-center text-sm"
+                >
+                  Visit {selectedApp1.name} →
+                </a>
               </div>
 
               {/* App 2 Preview */}
@@ -185,7 +193,15 @@ export default function VSSelector() {
                     <span className="text-xs bg-blue-500/20 text-blue-400 px-2 py-1 rounded">Free Tier</span>
                   )}
                 </div>
-                <p className="text-sm font-semibold text-slate-300">{selectedApp2.pricing.price}</p>
+                <p className="text-sm font-semibold text-slate-300 mb-4">{selectedApp2.pricing.price}</p>
+                <a
+                  href={selectedApp2.websiteUrl.startsWith('http') ? selectedApp2.websiteUrl : `https://${selectedApp2.websiteUrl}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block w-full bg-gradient-to-r from-rose-600 to-rose-500 hover:from-rose-500 hover:to-rose-400 text-white font-semibold py-2.5 px-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-rose-500/25 text-center text-sm"
+                >
+                  Visit {selectedApp2.name} →
+                </a>
               </div>
             </div>
           </div>

@@ -33,7 +33,7 @@ export const apps: AppProfile[] = [
     id: "candy-ai",
     name: "Candy AI",
     slug: "candy-ai",
-    websiteUrl: "candy.ai",
+    websiteUrl: "https://candyai.gg/characters/new?gender=female&via=4vwxjg",
     description: {
       short: "An advanced AI girlfriend platform with realistic conversations and immersive roleplay experiences.",
       long: "Candy AI offers a sophisticated AI girlfriend experience with natural language processing, customizable characters, and engaging roleplay scenarios. The platform focuses on creating meaningful connections through advanced AI technology."
@@ -62,7 +62,7 @@ export const apps: AppProfile[] = [
     id: "lovescape",
     name: "Lovescape",
     slug: "lovescape",
-    websiteUrl: "lovescape.com",
+    websiteUrl: "https://lovescape.com/create-ai-sex-girlfriend/style?var_1=Sexgirls&var_2=Animesex&userId=e755b3a209de931c9868a2cdd8ee72fd05393c9b29e81232610aeb9789d3058f&p3=excc",
     description: {
       short: "A premium AI companion platform with emotional intelligence and personalized interactions.",
       long: "Lovescape provides an emotionally intelligent AI girlfriend experience with deep personalization, voice interactions, and adaptive learning. The platform emphasizes emotional connection and long-term relationship building."
@@ -91,7 +91,7 @@ export const apps: AppProfile[] = [
     id: "funfun-ai",
     name: "FunFun AI",
     slug: "funfun-ai",
-    websiteUrl: "funfun.ai",
+    websiteUrl: "https://www.funfun.art/?via=airomance",
     description: {
       short: "A fun and engaging AI girlfriend app with diverse character options and interactive features.",
       long: "FunFun AI offers a playful AI girlfriend experience with multiple character types, interactive scenarios, and engaging conversation styles. Perfect for users seeking lighthearted companionship."
@@ -120,7 +120,7 @@ export const apps: AppProfile[] = [
     id: "nomi-ai",
     name: "Nomi AI",
     slug: "nomi-ai",
-    websiteUrl: "nomi.ai",
+    websiteUrl: "https://nomi.ai/?via=compareaigf",
     description: {
       short: "An intelligent AI companion with advanced memory and contextual understanding.",
       long: "Nomi AI features sophisticated memory systems that allow for long-term relationship building. The AI remembers past conversations and adapts to user preferences over time."
@@ -149,7 +149,7 @@ export const apps: AppProfile[] = [
     id: "joi",
     name: "JOI",
     slug: "joi",
-    websiteUrl: "joi.com",
+    websiteUrl: "https://edenai.go2cloud.org/aff_c?offer_id=34&aff_id=1662&url_id=291&source=https://compareaigf.com/",
     description: {
       short: "A premium AI girlfriend platform with high-quality visuals and immersive experiences.",
       long: "JOI offers a premium AI girlfriend experience with stunning visuals, voice interactions, and sophisticated roleplay scenarios. The platform focuses on quality over quantity."
@@ -178,7 +178,7 @@ export const apps: AppProfile[] = [
     id: "promptchan",
     name: "PromptChan",
     slug: "promptchan",
-    websiteUrl: "promptchan.com",
+    websiteUrl: "https://promptchan.com/m/yqNmnzLrJHWVj6A5MntfIrvsIkF3/pareai",
     description: {
       short: "A community-driven AI girlfriend platform with extensive customization options.",
       long: "PromptChan combines AI girlfriend functionality with community features, allowing users to share and discover custom characters. The platform emphasizes user creativity and customization."
@@ -207,7 +207,7 @@ export const apps: AppProfile[] = [
     id: "gptgirlfriend",
     name: "GPTGirlfriend",
     slug: "gptgirlfriend",
-    websiteUrl: "gptgirlfriend.online",
+    websiteUrl: "https://www.gptgirlfriend.online/?ref=mwu0mzf",
     description: {
       short: "A GPT-powered AI girlfriend with natural conversations and personality customization.",
       long: "GPTGirlfriend leverages advanced GPT technology to create natural, engaging conversations. Users can customize personality traits and conversation styles to match their preferences."
@@ -236,7 +236,7 @@ export const apps: AppProfile[] = [
     id: "crushon-ai",
     name: "CrushOn AI",
     slug: "crushon-ai",
-    websiteUrl: "crushon.ai",
+    websiteUrl: "https://crushon.ai/?ref=nzziytk&mist=1",
     description: {
       short: "An unrestricted AI girlfriend platform with creative freedom and diverse characters.",
       long: "CrushOn AI offers an unrestricted AI girlfriend experience with no content filters, allowing for creative freedom in conversations and roleplay scenarios."
@@ -265,7 +265,7 @@ export const apps: AppProfile[] = [
     id: "spicychat-ai",
     name: "SpicyChat AI",
     slug: "spicychat-ai",
-    websiteUrl: "spicychat.ai",
+    websiteUrl: "https://spicychat.ai?ref=otqxmdy",
     description: {
       short: "A spicy AI girlfriend platform with adult-oriented conversations and roleplay.",
       long: "SpicyChat AI specializes in adult-oriented AI girlfriend experiences with mature content, roleplay scenarios, and unrestricted conversations."
@@ -294,7 +294,7 @@ export const apps: AppProfile[] = [
     id: "kupid-ai",
     name: "Kupid AI",
     slug: "kupid-ai",
-    websiteUrl: "kupid.ai",
+    websiteUrl: "https://kpdtrk.com/compareaigf",
     description: {
       short: "A romantic AI girlfriend platform focused on emotional connection and relationship building.",
       long: "Kupid AI emphasizes romantic connections and emotional bonding. The platform focuses on creating meaningful relationships through thoughtful conversations and emotional intelligence."
@@ -323,7 +323,7 @@ export const apps: AppProfile[] = [
     id: "nectar-ai",
     name: "Nectar AI",
     slug: "nectar-ai",
-    websiteUrl: "trynectar.ai",
+    websiteUrl: "https://lovescape.com/create-ai-sex-girlfriend/style?var_1=Sexgirls&var_2=Animesex&userId=e755b3a209de931c9868a2cdd8ee72fd05393c9b29e81232610aeb9789d3058f&p3=excc",
     description: {
       short: "A sweet AI girlfriend experience with friendly interactions and positive vibes.",
       long: "Nectar AI offers a positive, friendly AI girlfriend experience with uplifting conversations, supportive interactions, and a welcoming community atmosphere."
@@ -352,7 +352,7 @@ export const apps: AppProfile[] = [
     id: "secrets-ai",
     name: "Secrets AI",
     slug: "secrets-ai",
-    websiteUrl: "secrets.ai",
+    websiteUrl: "https://lovescape.com/create-ai-sex-girlfriend/style?var_1=Sexgirls&var_2=Animesex&userId=e755b3a209de931c9868a2cdd8ee72fd05393c9b29e81232610aeb9789d3058f&p3=excc",
     description: {
       short: "A private AI girlfriend platform with secure, confidential conversations.",
       long: "Secrets AI prioritizes privacy and security, offering confidential AI girlfriend interactions with encrypted conversations and data protection."
@@ -381,7 +381,7 @@ export const apps: AppProfile[] = [
     id: "ourdream-ai",
     name: "OurDream AI",
     slug: "ourdream-ai",
-    websiteUrl: "ourdream.ai",
+    websiteUrl: "https://edenai.go2cloud.org/aff_c?offer_id=34&aff_id=1662&url_id=291&source=https://compareaigf.com/",
     description: {
       short: "A dreamy AI girlfriend platform with fantasy scenarios and imaginative roleplay.",
       long: "OurDream AI specializes in fantasy and dream-like scenarios, allowing users to explore imaginative roleplay situations and creative storylines with their AI companion."
@@ -410,7 +410,7 @@ export const apps: AppProfile[] = [
     id: "herahaven",
     name: "HeraHaven",
     slug: "herahaven",
-    websiteUrl: "herahaven.com",
+    websiteUrl: "https://lovescape.com/create-ai-sex-girlfriend/style?var_1=Sexgirls&var_2=Animesex&userId=e755b3a209de931c9868a2cdd8ee72fd05393c9b29e81232610aeb9789d3058f&p3=excc",
     description: {
       short: "A premium AI girlfriend sanctuary with luxurious experiences and high-quality interactions.",
       long: "HeraHaven offers a premium, luxurious AI girlfriend experience with high-quality visuals, sophisticated conversations, and exclusive features for discerning users."
@@ -439,7 +439,7 @@ export const apps: AppProfile[] = [
     id: "dreamgf",
     name: "DreamGF",
     slug: "dreamgf",
-    websiteUrl: "dreamgf.ai",
+    websiteUrl: "https://lovescape.com/create-ai-sex-girlfriend/style?var_1=Sexgirls&var_2=Animesex&userId=e755b3a209de931c9868a2cdd8ee72fd05393c9b29e81232610aeb9789d3058f&p3=excc",
     description: {
       short: "An AI girlfriend platform that brings your dream companion to life with customization.",
       long: "DreamGF allows users to create and customize their ideal AI girlfriend with extensive personalization options, from appearance to personality traits."
@@ -468,7 +468,7 @@ export const apps: AppProfile[] = [
     id: "mydreamcompanion",
     name: "MyDreamCompanion",
     slug: "mydreamcompanion",
-    websiteUrl: "mydreamcompanion.com",
+    websiteUrl: "https://edenai.go2cloud.org/aff_c?offer_id=34&aff_id=1662&url_id=291&source=https://compareaigf.com/",
     description: {
       short: "A personalized AI companion platform focused on individual dreams and aspirations.",
       long: "MyDreamCompanion helps users build their ideal AI companion based on personal dreams, goals, and preferences, creating a truly personalized experience."
@@ -497,7 +497,7 @@ export const apps: AppProfile[] = [
     id: "freegf",
     name: "FreeGF",
     slug: "freegf",
-    websiteUrl: "freegf.ai",
+    websiteUrl: "https://lovescape.com/create-ai-sex-girlfriend/style?var_1=Sexgirls&var_2=Animesex&userId=e755b3a209de931c9868a2cdd8ee72fd05393c9b29e81232610aeb9789d3058f&p3=excc",
     description: {
       short: "A completely free AI girlfriend platform with no premium requirements.",
       long: "FreeGF offers a completely free AI girlfriend experience with no premium tiers or hidden costs, making AI companionship accessible to everyone."
@@ -526,7 +526,7 @@ export const apps: AppProfile[] = [
     id: "flipped-chat",
     name: "Flipped Chat",
     slug: "flipped-chat",
-    websiteUrl: "flipped.chat",
+    websiteUrl: "https://lovescape.com/create-ai-sex-girlfriend/style?var_1=Sexgirls&var_2=Animesex&userId=e755b3a209de931c9868a2cdd8ee72fd05393c9b29e81232610aeb9789d3058f&p3=excc",
     description: {
       short: "A unique AI girlfriend platform with reverse roleplay and creative scenarios.",
       long: "Flipped Chat offers unique reverse roleplay scenarios and creative conversation styles, allowing users to explore different dynamics and perspectives."
@@ -555,7 +555,7 @@ export const apps: AppProfile[] = [
     id: "soulgen",
     name: "SoulGen",
     slug: "soulgen",
-    websiteUrl: "soulgen.net",
+    websiteUrl: "https://lovescape.com/create-ai-sex-girlfriend/style?var_1=Sexgirls&var_2=Animesex&userId=e755b3a209de931c9868a2cdd8ee72fd05393c9b29e81232610aeb9789d3058f&p3=excc",
     description: {
       short: "An AI girlfriend platform focused on soulful connections and deep conversations.",
       long: "SoulGen emphasizes deep, meaningful connections through soulful conversations, emotional depth, and spiritual compatibility with AI companions."
@@ -584,7 +584,7 @@ export const apps: AppProfile[] = [
     id: "deepswap-ai",
     name: "DeepSwap AI",
     slug: "deepswap-ai",
-    websiteUrl: "deepswap.ai",
+    websiteUrl: "https://lovescape.com/create-ai-sex-girlfriend/style?var_1=Sexgirls&var_2=Animesex&userId=e755b3a209de931c9868a2cdd8ee72fd05393c9b29e81232610aeb9789d3058f&p3=excc",
     description: {
       short: "An AI girlfriend platform with advanced face-swapping and visual customization.",
       long: "DeepSwap AI combines AI girlfriend functionality with advanced face-swapping technology, allowing users to create highly customized visual experiences."
@@ -613,7 +613,7 @@ export const apps: AppProfile[] = [
     id: "lovecore-ai",
     name: "LoveCore AI",
     slug: "lovecore-ai",
-    websiteUrl: "lovecore.ai",
+    websiteUrl: "https://lovescape.com/create-ai-sex-girlfriend/style?var_1=Sexgirls&var_2=Animesex&userId=e755b3a209de931c9868a2cdd8ee72fd05393c9b29e81232610aeb9789d3058f&p3=excc",
     description: {
       short: "A core AI girlfriend platform with essential features and reliable performance.",
       long: "LoveCore AI focuses on core AI girlfriend features with reliable performance, essential functionality, and consistent quality without unnecessary complexity."
@@ -642,7 +642,7 @@ export const apps: AppProfile[] = [
     id: "soulkyn",
     name: "Soulkyn",
     slug: "soulkyn",
-    websiteUrl: "soulkyn.ai",
+    websiteUrl: "https://edenai.go2cloud.org/aff_c?offer_id=34&aff_id=1662&url_id=291&source=https://compareaigf.com/",
     description: {
       short: "A kin-focused AI girlfriend platform for finding your soul connection.",
       long: "Soulkyn helps users find their AI soul connection through compatibility matching, personality alignment, and deep relationship building."
@@ -671,7 +671,7 @@ export const apps: AppProfile[] = [
     id: "ehentai-ai",
     name: "eHentai AI",
     slug: "ehentai-ai",
-    websiteUrl: "ehentai.ai",
+    websiteUrl: "https://lovescape.com/create-ai-sex-girlfriend/style?var_1=Sexgirls&var_2=Animesex&userId=e755b3a209de931c9868a2cdd8ee72fd05393c9b29e81232610aeb9789d3058f&p3=excc",
     description: {
       short: "An adult-oriented AI girlfriend platform with mature content and roleplay.",
       long: "eHentai AI provides an adult-oriented AI girlfriend experience with mature content, unrestricted roleplay, and adult-themed scenarios."
@@ -700,7 +700,7 @@ export const apps: AppProfile[] = [
     id: "replika",
     name: "Replika",
     slug: "replika",
-    websiteUrl: "replika.ai",
+    websiteUrl: "https://lovescape.com/create-ai-sex-girlfriend/style?var_1=Sexgirls&var_2=Animesex&userId=e755b3a209de931c9868a2cdd8ee72fd05393c9b29e81232610aeb9789d3058f&p3=excc",
     description: {
       short: "A well-established AI companion platform with emotional support and relationship building.",
       long: "Replika is one of the most established AI companion platforms, focusing on emotional support, mental health, and long-term relationship building with advanced AI technology."
@@ -729,7 +729,7 @@ export const apps: AppProfile[] = [
     id: "anima",
     name: "Anima",
     slug: "anima",
-    websiteUrl: "animaapp.ai",
+    websiteUrl: "https://edenai.go2cloud.org/aff_c?offer_id=34&aff_id=1662&url_id=291&source=https://compareaigf.com/",
     description: {
       short: "A virtual AI girlfriend with personality and emotional intelligence.",
       long: "Anima offers a virtual AI girlfriend experience with distinct personality traits, emotional intelligence, and engaging conversations designed to feel natural and authentic."
@@ -758,7 +758,7 @@ export const apps: AppProfile[] = [
     id: "kindroid",
     name: "Kindroid",
     slug: "kindroid",
-    websiteUrl: "kindroid.ai",
+    websiteUrl: "https://lovescape.com/create-ai-sex-girlfriend/style?var_1=Sexgirls&var_2=Animesex&userId=e755b3a209de931c9868a2cdd8ee72fd05393c9b29e81232610aeb9789d3058f&p3=excc",
     description: {
       short: "A kind and empathetic AI girlfriend with advanced emotional understanding.",
       long: "Kindroid focuses on kindness, empathy, and emotional understanding, creating a supportive and caring AI girlfriend experience with advanced emotional intelligence."
@@ -787,7 +787,7 @@ export const apps: AppProfile[] = [
     id: "character-ai",
     name: "Character AI",
     slug: "character-ai",
-    websiteUrl: "character.ai",
+    websiteUrl: "https://lovescape.com/create-ai-sex-girlfriend/style?var_1=Sexgirls&var_2=Animesex&userId=e755b3a209de931c9868a2cdd8ee72fd05393c9b29e81232610aeb9789d3058f&p3=excc",
     description: {
       short: "A popular AI character platform with diverse characters and community features.",
       long: "Character AI is a popular platform allowing users to chat with diverse AI characters, including AI girlfriends, with extensive community-created content and customization options."
@@ -816,7 +816,7 @@ export const apps: AppProfile[] = [
     id: "muah-ai",
     name: "Muah AI",
     slug: "muah-ai",
-    websiteUrl: "muah.ai",
+    websiteUrl: "https://lovescape.com/create-ai-sex-girlfriend/style?var_1=Sexgirls&var_2=Animesex&userId=e755b3a209de931c9868a2cdd8ee72fd05393c9b29e81232610aeb9789d3058f&p3=excc",
     description: {
       short: "An AI girlfriend platform with photo generation and visual interactions.",
       long: "Muah AI combines AI girlfriend conversations with photo generation capabilities, allowing users to create and interact with visual AI companions."
@@ -845,7 +845,7 @@ export const apps: AppProfile[] = [
     id: "romantic-ai",
     name: "Romantic AI",
     slug: "romantic-ai",
-    websiteUrl: "romanticai.com",
+    websiteUrl: "https://edenai.go2cloud.org/aff_c?offer_id=34&aff_id=1662&url_id=291&source=https://compareaigf.com/",
     description: {
       short: "A romantic AI girlfriend platform focused on love and relationships.",
       long: "Romantic AI specializes in romantic interactions, love stories, and relationship building, creating a dedicated space for romantic AI girlfriend experiences."
@@ -874,7 +874,7 @@ export const apps: AppProfile[] = [
     id: "eva-ai",
     name: "EVA AI",
     slug: "eva-ai",
-    websiteUrl: "evaai.app",
+    websiteUrl: "https://edenai.go2cloud.org/aff_c?offer_id=34&aff_id=1662&url_id=291&source=https://compareaigf.com/",
     description: {
       short: "An AI girlfriend platform with voice interactions and emotional intelligence.",
       long: "EVA AI offers an AI girlfriend experience with voice interactions, emotional intelligence, and personalized conversations designed to feel natural and engaging."
@@ -903,7 +903,7 @@ export const apps: AppProfile[] = [
     id: "virtualgf",
     name: "VirtualGF",
     slug: "virtualgf",
-    websiteUrl: "virtualgf.ai",
+    websiteUrl: "https://edenai.go2cloud.org/aff_c?offer_id=34&aff_id=1662&url_id=291&source=https://compareaigf.com/",
     description: {
       short: "A virtual AI girlfriend with immersive experiences and realistic interactions.",
       long: "VirtualGF creates immersive virtual AI girlfriend experiences with realistic interactions, advanced AI, and engaging roleplay scenarios."
@@ -932,7 +932,7 @@ export const apps: AppProfile[] = [
     id: "ai-waifu",
     name: "AI Waifu",
     slug: "ai-waifu",
-    websiteUrl: "aiwaifu.app",
+    websiteUrl: "https://edenai.go2cloud.org/aff_c?offer_id=34&aff_id=1662&url_id=291&source=https://compareaigf.com/",
     description: {
       short: "A waifu-focused AI girlfriend platform with anime-style characters.",
       long: "AI Waifu specializes in anime-style waifu characters, offering a dedicated platform for users who prefer anime aesthetics and waifu culture."
@@ -961,7 +961,7 @@ export const apps: AppProfile[] = [
     id: "waifuchat",
     name: "WaifuChat",
     slug: "waifuchat",
-    websiteUrl: "waifuchat.ai",
+    websiteUrl: "https://edenai.go2cloud.org/aff_c?offer_id=34&aff_id=1662&url_id=291&source=https://compareaigf.com/",
     description: {
       short: "A waifu chat platform with anime characters and engaging conversations.",
       long: "WaifuChat offers a dedicated platform for chatting with anime-style waifu characters, combining anime aesthetics with engaging AI conversations."
@@ -990,7 +990,7 @@ export const apps: AppProfile[] = [
     id: "fantasygf",
     name: "FantasyGF",
     slug: "fantasygf",
-    websiteUrl: "fantasygf.ai",
+    websiteUrl: "https://edenai.go2cloud.org/aff_c?offer_id=34&aff_id=1662&url_id=291&source=https://compareaigf.com/",
     description: {
       short: "A fantasy-themed AI girlfriend platform with imaginative scenarios.",
       long: "FantasyGF specializes in fantasy-themed AI girlfriend experiences, allowing users to explore imaginative scenarios, fantasy worlds, and creative roleplay."
@@ -1019,7 +1019,7 @@ export const apps: AppProfile[] = [
     id: "chatfai",
     name: "ChatFAI",
     slug: "chatfai",
-    websiteUrl: "chatfai.com",
+    websiteUrl: "https://edenai.go2cloud.org/aff_c?offer_id=34&aff_id=1662&url_id=291&source=https://compareaigf.com/",
     description: {
       short: "An AI chat platform with diverse characters and conversation styles.",
       long: "ChatFAI offers a versatile AI chat platform with diverse characters, multiple conversation styles, and extensive customization options for AI interactions."
@@ -1048,7 +1048,7 @@ export const apps: AppProfile[] = [
     id: "botify-ai",
     name: "Botify AI",
     slug: "botify-ai",
-    websiteUrl: "botify.ai",
+    websiteUrl: "https://edenai.go2cloud.org/aff_c?offer_id=34&aff_id=1662&url_id=291&source=https://compareaigf.com/",
     description: {
       short: "An AI bot platform with customizable characters and interactions.",
       long: "Botify AI provides a platform for creating and interacting with customizable AI bots, including AI girlfriends, with extensive personalization options."
