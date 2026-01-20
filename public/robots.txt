@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Disallow chat pages and API routes from indexing
+Disallow: /chat/
+Disallow: /api/
+
+Sitemap: https://bestaigfapps.com/sitemap.xml
