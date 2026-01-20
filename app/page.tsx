@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'Choose the Best AI Girlfriend with CompareAIGF',
   description: 'Compare top AI girlfriend apps side-by-side. We test speed, roleplay quality, emotional intelligence, and visuals to help you find the perfect AI companion.',
   keywords: 'ai girlfriend comparison, ai girlfriend app comparison, ai girlfriend chatbot comparison, ai girlfriend app features comparison, ai girlfriend apps comparison, virtual girlfriend comparison',
+  alternates: {
+    canonical: 'https://compareaigf.com/',
+  },
 };
 
 // FAQ data for structured data

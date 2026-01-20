@@ -30,10 +30,17 @@ export async function generateMetadata({ params }: ComparisonPageProps): Promise
     };
   }
 
+  // Normalize slug order for canonical URL
+  const slug1 = app1.slug < app2.slug ? app1.slug : app2.slug;
+  const slug2 = app1.slug < app2.slug ? app2.slug : app1.slug;
+
   return {
     title: `${app1.name} vs ${app2.name} | The Ultimate AI Girlfriend Comparison`,
     description: `${app1.name} vs ${app2.name}: Compare chat speed, roleplay quality, emotional intelligence, pricing, and features. Find which AI girlfriend app is better for you.`,
     keywords: `${app1.name}, ${app2.name}, AI girlfriend comparison, ${app1.name} vs ${app2.name}`,
+    alternates: {
+      canonical: `https://compareaigf.com/compare/${slug1}-vs-${slug2}`,
+    },
   };
 }
 

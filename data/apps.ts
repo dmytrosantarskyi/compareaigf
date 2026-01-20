@@ -842,35 +842,6 @@ export const apps: AppProfile[] = [
     }
   },
   {
-    id: "girlfriendgpt",
-    name: "GirlfriendGPT",
-    slug: "girlfriendgpt",
-    websiteUrl: "girlfriendgpt.ai",
-    description: {
-      short: "A GPT-powered AI girlfriend with natural language and intelligent conversations.",
-      long: "GirlfriendGPT leverages GPT technology to create intelligent, natural conversations with AI girlfriends, offering realistic interactions and adaptive responses."
-    },
-    pricing: {
-      model: "Freemium",
-      price: "Free with Premium $7.99/month"
-    },
-    ratings: {
-      speed: 8,
-      roleplay: 8,
-      eq: 8,
-      visual: 7
-    },
-    pros: ["GPT-powered", "Natural language", "Intelligent", "Good balance"],
-    cons: ["Limited advanced features", "Basic visuals"],
-    redditSentiment: "Users appreciate the natural conversations. Some want more advanced features and better visuals.",
-    features: {
-      hasNsfw: true,
-      hasVoice: true,
-      hasVideo: false,
-      freeTier: true
-    }
-  },
-  {
     id: "romantic-ai",
     name: "Romantic AI",
     slug: "romantic-ai",
@@ -1095,35 +1066,6 @@ export const apps: AppProfile[] = [
     pros: ["Customizable", "Bot creation", "Affordable", "Free tier"],
     cons: ["Learning curve", "Variable quality"],
     redditSentiment: "Users enjoy the customization. Some find the creation process complex.",
-    features: {
-      hasNsfw: true,
-      hasVoice: false,
-      hasVideo: false,
-      freeTier: true
-    }
-  },
-  {
-    id: "ai-dungeon",
-    name: "AI Dungeon",
-    slug: "ai-dungeon",
-    websiteUrl: "aidungeon.io",
-    description: {
-      short: "An AI storytelling platform that can be used for AI girlfriend roleplay scenarios.",
-      long: "AI Dungeon is primarily an AI storytelling platform that allows users to create interactive stories and scenarios, which can include AI girlfriend roleplay experiences."
-    },
-    pricing: {
-      model: "Freemium",
-      price: "Free with Premium $9.99/month"
-    },
-    ratings: {
-      speed: 7,
-      roleplay: 9,
-      eq: 6,
-      visual: 5
-    },
-    pros: ["Storytelling focus", "Excellent roleplay", "Creative", "Free tier"],
-    cons: ["Not girlfriend-focused", "Limited visuals", "Slower responses"],
-    redditSentiment: "Users appreciate the storytelling and roleplay. It's not specifically designed for girlfriend experiences.",
     features: {
       hasNsfw: true,
       hasVoice: false,

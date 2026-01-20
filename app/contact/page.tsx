@@ -4,6 +4,9 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Contact Us | CompareAIGF',
   description: 'Contact CompareAIGF: Get in touch with us for questions, feedback, app suggestions, or partnership inquiries. We respond within 24-48 hours. Send us a message.',
+  alternates: {
+    canonical: 'https://compareaigf.com/contact',
+  },
 };
 
 export default function Contact() {

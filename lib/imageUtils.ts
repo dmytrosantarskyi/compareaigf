@@ -3,61 +3,84 @@
  */
 const logoMap: Record<string, string> = {
   'candy-ai': 'candyai',
-  'crushon-ai': 'crushonai',
-  'deepswap-ai': 'deepswap',
-  'dreamgf': 'dreamgf',
-  'ehentai-ai': 'ehentai',
-  'eva-ai': 'evaapp',
-  'flipped-chat': 'flipped',
-  'freegf': 'freegf',
-  'funfun-ai': 'funfun',
-  'girlfriendgpt': 'girlfriendgpt',
-  'herahaven': 'herahaven',
-  'joi': 'joiai',
-  'kupid-ai': 'kupid',
-  'lovecore-ai': 'lovecoreai',
   'lovescape': 'lovescapeai',
-  'mydreamcompanion': 'mydreamcompanion',
-  'nectar-ai': 'nectar',
+  'funfun-ai': 'funfun',
   'nomi-ai': 'nomiai',
-  'ourdream-ai': 'ourdreamai',
+  'joi': 'joiai',
   'promptchan': 'promptchan',
-  'secrets-ai': 'secrets',
-  'soulgen': 'soulgen',
-  'soulkyn': 'soulkyn',
+  'gptgirlfriend': 'girlfriendgpt', // Using girlfriendgpt.webp file
+  'crushon-ai': 'crushonai',
   'spicychat-ai': 'spicychat',
-  // Add more mappings as needed
+  'kupid-ai': 'kupid',
+  'nectar-ai': 'nectar',
+  'secrets-ai': 'secrets',
+  'ourdream-ai': 'ourdreamai',
+  'herahaven': 'herahaven',
+  'dreamgf': 'dreamgf',
+  'mydreamcompanion': 'mydreamcompanion',
+  'freegf': 'freegf',
+  'flipped-chat': 'flipped',
+  'soulgen': 'soulgen',
+  'deepswap-ai': 'deepswap',
+  'lovecore-ai': 'lovecoreai',
+  'soulkyn': 'soulkyn',
+  'ehentai-ai': 'ehentai',
+  'replika': 'replika',
+  'anima': 'animaapp',
+  'kindroid': 'kindroid',
+  'character-ai': 'character',
+  'muah-ai': 'muah',
+  'romantic-ai': 'romanticai',
+  'eva-ai': 'evaapp',
+  'virtualgf': 'virtualgf',
+  'ai-waifu': 'aiwaifu',
+  'waifuchat': 'waifuchat',
+  'fantasygf': 'fantasygf',
+  'chatfai': 'chatfai',
+  'botify-ai': 'botify',
 };
 
 /**
  * Maps app slugs to product screenshot filenames
+ * If product doesn't exist, logo will be used as fallback
  */
 const productMap: Record<string, string> = {
   'candy-ai': 'candy',
-  'crushon-ai': 'crushon',
-  'deepswap-ai': 'deepswap',
-  'dreamgf': 'dreamgf',
-  'ehentai-ai': 'ehentai',
-  'eva-ai': 'evaapp',
-  'flipped-chat': 'flipped',
-  'freegf': 'freegf',
-  'funfun-ai': 'funfun',
-  'girlfriendgpt': 'girlfriendgpt',
-  'herahaven': 'herahaven',
-  'joi': 'joi',
-  'kupid-ai': 'kupid',
-  'lovecore-ai': 'lovecoreai',
   'lovescape': 'lovescape',
-  'mydreamcompanion': 'mydreamcompanion',
-  'nectar-ai': 'trynectar',
+  'funfun-ai': 'funfun',
   'nomi-ai': 'nomi',
-  'ourdream-ai': 'ourdream',
+  'joi': 'joi',
   'promptchan': 'promptchan',
-  'secrets-ai': 'secrets',
-  'soulgen': 'soulgen',
-  'soulkyn': 'soulkyn',
+  // gptgirlfriend product not found, will use logo (girlfriendgpt.webp)
+  'crushon-ai': 'crushon',
   'spicychat-ai': 'spicychat',
-  // Add more mappings as needed
+  'kupid-ai': 'kupid',
+  'nectar-ai': 'trynectar',
+  'secrets-ai': 'secrets',
+  'ourdream-ai': 'ourdream',
+  'herahaven': 'herahaven',
+  'dreamgf': 'dreamgf',
+  'mydreamcompanion': 'mydreamcompanion',
+  'freegf': 'freegf',
+  'flipped-chat': 'flipped',
+  'soulgen': 'soulgen',
+  'deepswap-ai': 'deepswap',
+  'lovecore-ai': 'lovecoreai',
+  'soulkyn': 'soulkyn',
+  'ehentai-ai': 'ehentai',
+  'replika': 'replika',
+  'anima': 'animaapp',
+  'kindroid': 'kindroid',
+  'character-ai': 'character',
+  'muah-ai': 'muah',
+  'romantic-ai': 'romanticai',
+  'eva-ai': 'evaapp',
+  'virtualgf': 'virtualgf',
+  'ai-waifu': 'aiwaifu', // Will use logo as product fallback
+  'waifuchat': 'waifuchat',
+  'fantasygf': 'fantasygf',
+  'chatfai': 'chatfai',
+  'botify-ai': 'botify',
 };
 
 /**
@@ -72,12 +95,25 @@ export function getLogoPath(slug: string): string | null {
 
 /**
  * Get product screenshot path for an app by slug
- * Returns null if screenshot doesn't exist
+ * If product doesn't exist, returns logo path as fallback
+ * Returns null if neither product nor logo exists
  */
 export function getProductPath(slug: string): string | null {
   const productName = productMap[slug];
-  if (!productName) return null;
-  return `/products/${productName}.webp`;
+  
+  // If product mapping exists, try to use it
+  if (productName) {
+    return `/products/${productName}.webp`;
+  }
+  
+  // If product doesn't exist, fallback to logo
+  const logoPath = getLogoPath(slug);
+  if (logoPath) {
+    return logoPath;
+  }
+  
+  // If neither exists, return null
+  return null;
 }
 
 /**
@@ -103,7 +139,8 @@ export function hasLogo(slug: string): boolean {
 
 /**
  * Check if product screenshot exists for an app
+ * Returns true if either product or logo exists
  */
 export function hasProduct(slug: string): boolean {
-  return productMap[slug] !== undefined;
+  return productMap[slug] !== undefined || logoMap[slug] !== undefined;
 }

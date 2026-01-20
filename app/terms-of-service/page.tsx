@@ -4,6 +4,9 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Terms of Service | CompareAIGF',
   description: 'CompareAIGF Terms of Service: Read our terms and conditions for using our AI girlfriend comparison website. Understand your rights and responsibilities.',
+  alternates: {
+    canonical: 'https://compareaigf.com/terms-of-service',
+  },
 };
 
 export default function TermsOfService() {
